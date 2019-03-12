@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.spring.cloud.demo.com.spring.cloud.config.demo.Application</groupId>
+    <artifactId>spring-cloud-eureka</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+
+
+    <modules>
+        <module>eureka-client</module>
+        <module>eureka-server</module>
+        <module>eureka-consumer</module>
+        <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-feign</module>
+        <module>eureka-feign-upload-server</module>
+        <module>eureka-feign-upload-client</module>
+        <module>config-client</module>
+        <module>config-server-git</module>
+        <module>config-server</module>
+        <module>config-server-client</module>
+        <module>hystrix-dashboard</module>
+        <module>turbine</module>
+        <module>turbine-amqp</module>
+        <module>api-gateway</module>
+        <module>stream-hello</module>
+        <module>trace-1</module>
+        <module>trace-2</module>
+        <module>spring-activiti</module>
+        <module>zipkin-server</module>
+    </modules>
+
+</project>
